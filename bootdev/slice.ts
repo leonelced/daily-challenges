@@ -8,3 +8,6 @@ function summarizeSignal(signal: string): string {
   const beyond = signal.slice(30);
   return `first: ${first} | middle: ${middle} | tail: ${tail} | full: ${full} | beyond: ${beyond}`;
 }
+
+
+// https://www.boot.dev/challenges/fac07a20-e3d3-4a87-a50e-c4d4f7c14479
