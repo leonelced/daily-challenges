@@ -11,3 +11,16 @@ function summarizeSignal(signal: string): string {
 
 
 // https://www.boot.dev/challenges/fac07a20-e3d3-4a87-a50e-c4d4f7c14479
+
+
+// My solution: 
+
+export function extractSlice(
+  message: string,
+  start?: number,
+  end?: number,
+): string {
+  return message.slice(start, end);
+}
+
+// https://www.boot.dev/challenges/829f1a65-4c88-4324-8c23-ecb7b5c0adcf
